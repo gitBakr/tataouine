@@ -3,14 +3,14 @@ import { Briefcase, Star, Wrench, Paintbrush, Car, Brain, Scissors, Home } from 
 import { Card } from "@/components/ui/card";
 
 const categories = [
-  { icon: Star, name: "Santé", color: "bg-red-50" },
-  { icon: Wrench, name: "Artisans", color: "bg-blue-50" },
-  { icon: Briefcase, name: "Services", color: "bg-green-50" },
-  { icon: Paintbrush, name: "Art & Design", color: "bg-purple-50" },
-  { icon: Car, name: "Auto", color: "bg-yellow-50" },
-  { icon: Brain, name: "Education", color: "bg-pink-50" },
-  { icon: Scissors, name: "Beauté", color: "bg-orange-50" },
-  { icon: Home, name: "Immobilier", color: "bg-indigo-50" },
+  { icon: Star, name: "Santé", color: "bg-blue-50" },
+  { icon: Wrench, name: "Artisans", color: "bg-yellow-50" },
+  { icon: Briefcase, name: "Services", color: "bg-blue-50" },
+  { icon: Paintbrush, name: "Art & Design", color: "bg-yellow-50" },
+  { icon: Car, name: "Auto", color: "bg-blue-50" },
+  { icon: Brain, name: "Education", color: "bg-yellow-50" },
+  { icon: Scissors, name: "Beauté", color: "bg-blue-50" },
+  { icon: Home, name: "Immobilier", color: "bg-yellow-50" },
 ];
 
 export const CategoryGrid = () => {
@@ -22,8 +22,8 @@ export const CategoryGrid = () => {
           className={`hover-scale glass-card p-6 cursor-pointer ${category.color}`}
         >
           <div className="flex flex-col items-center space-y-2">
-            <category.icon className="h-8 w-8 text-gray-700" />
-            <span className="font-medium text-gray-900">{category.name}</span>
+            <category.icon className="h-8 w-8 text-blue-600" />
+            <span className="font-medium text-blue-900">{category.name}</span>
           </div>
         </Card>
       ))}
