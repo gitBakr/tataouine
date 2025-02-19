@@ -1,9 +1,9 @@
 
-import { Briefcase, FirstAid, Wrench, Paintbrush, Car, Brain, Scissors, Home } from "lucide-react";
+import { Briefcase, Star, Wrench, Paintbrush, Car, Brain, Scissors, Home } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const categories = [
-  { icon: FirstAid, name: "Santé", color: "bg-red-50" },
+  { icon: Star, name: "Santé", color: "bg-red-50" },
   { icon: Wrench, name: "Artisans", color: "bg-blue-50" },
   { icon: Briefcase, name: "Services", color: "bg-green-50" },
   { icon: Paintbrush, name: "Art & Design", color: "bg-purple-50" },
